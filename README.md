@@ -127,28 +127,3 @@ At session end, typing `exit` prompts auto-generation of visualizations.
 - **Cross-session**:  
   _“What were the key points about neural networks?”_  
   → Retrieves from long-term memory even after restart.  
-
----
-
-## 🎯 Main Findings Across All Documents
-
-1. **Machine Learning Basics**  
-   - Supervised & unsupervised algorithms  
-   - Decision trees, random forests  
-   - Model evaluation (accuracy, precision, recall)  
-
-2. **Deep Learning Insights**  
-   - Neural networks (CNNs, RNNs)  
-   - Training techniques (backpropagation, optimizers)  
-   - Applications in computer vision & NLP  
-
-3. **Best Practices**  
-   - Dataset recommendations (MNIST → CIFAR → ImageNet)  
-   - Transfer learning & augmentation  
-   - Optimization methods (SGD, Adam, learning rate scheduling)  
-
-4. **Memory Utility**  
-   - Short-term memory supports conversational flow  
-   - Long-term memory enables persistence across sessions  
-   - Integration ensures rich, contextual answers  
-
