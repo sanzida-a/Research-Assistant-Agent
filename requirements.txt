@@ -1,0 +1,16 @@
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.2.0
+pypdf
+chromadb>=0.5.0
+openai>=1.0.0
+tiktoken
+python-dotenv
+matplotlib
+logfire
+
+# OpenTelemetry with compatible versions
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-exporter-otlp

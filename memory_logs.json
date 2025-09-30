@@ -1,0 +1,63 @@
+{
+  "sessions": [
+    {
+      "session_id": "session_20250930_231645",
+      "start_time": "2025-09-30T23:16:45.008576",
+      "pdfs": [
+        "data\\sample1.pdf",
+        "data\\sample2.pdf"
+      ],
+      "query_count": 0
+    },
+    {
+      "session_id": "session_20250930_231757",
+      "start_time": "2025-09-30T23:17:57.871680",
+      "pdfs": [
+        "data\\sample1.pdf",
+        "data\\sample2.pdf"
+      ],
+      "query_count": 1
+    }
+  ],
+  "queries": [
+    {
+      "session_id": "session_20250930_231757",
+      "query": "Summarize these documents",
+      "short_term_used": true,
+      "long_term_used": true,
+      "timestamp": "2025-09-30T23:20:00.277430"
+    }
+  ],
+  "memory_ops": [
+    {
+      "operation": "add",
+      "memory_type": "long_term",
+      "session_id": "session_20250930_231645",
+      "timestamp": "2025-09-30T23:17:09.091051"
+    },
+    {
+      "operation": "add",
+      "memory_type": "long_term",
+      "session_id": "session_20250930_231757",
+      "timestamp": "2025-09-30T23:18:22.925838"
+    },
+    {
+      "operation": "add",
+      "memory_type": "short_term",
+      "session_id": "session_20250930_231757",
+      "timestamp": "2025-09-30T23:20:00.278265"
+    },
+    {
+      "operation": "retrieve",
+      "memory_type": "short_term",
+      "session_id": "session_20250930_231757",
+      "timestamp": "2025-09-30T23:20:00.278863"
+    },
+    {
+      "operation": "retrieve",
+      "memory_type": "long_term",
+      "session_id": "session_20250930_231757",
+      "timestamp": "2025-09-30T23:20:00.279823"
+    }
+  ]
+}
